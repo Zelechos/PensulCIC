@@ -1,0 +1,131 @@
+[
+    {
+        "N": 1,
+        "SIGLA": "MAT 100",
+        "ASIGNATURA":"ALGEBRA 1",
+        "HT": 2,
+        "HP": 2,
+        "HL": 0,
+        "HI": 0,
+        "HEI": 0,
+        "TH": 4,
+        "REQUISITOS": "EX. DE INGRESO"
+    },
+    {
+        "N": 2,
+        "SIGLA": "MAT 101",
+        "ASIGNATURA":"CALCULO 1",
+        "HT": 2,
+        "HP": 2,
+        "HL": 0,
+        "HI": 0,
+        "HEI": 0,
+        "TH": 4,
+        "REQUISITOS": "EX. DE INGRESO"
+    },
+    {
+        "N": 2,
+        "SIGLA": "MAT 101",
+        "ASIGNATURA":"CALCULO 1",
+        "HT": 2,
+        "HP": 2,
+        "HL": 0,
+        "HI": 0,
+        "HEI": 0,
+        "TH": 4,
+        "REQUISITOS": "EX. DE INGRESO"
+    },
+    {
+        "N": 2,
+        "SIGLA": "MAT 101",
+        "ASIGNATURA":"CALCULO 1",
+        "HT": 2,
+        "HP": 2,
+        "HL": 0,
+        "HI": 0,
+        "HEI": 0,
+        "TH": 4,
+        "REQUISITOS": "EX. DE INGRESO"
+    },
+    {
+        "N": 2,
+        "SIGLA": "MAT 101",
+        "ASIGNATURA":"CALCULO 1",
+        "HT": 2,
+        "HP": 2,
+        "HL": 0,
+        "HI": 0,
+        "HEI": 0,
+        "TH": 4,
+        "REQUISITOS": "EX. DE INGRESO"
+    },
+    {
+        "N": 2,
+        "SIGLA": "MAT 101",
+        "ASIGNATURA":"CALCULO 1",
+        "HT": 2,
+        "HP": 2,
+        "HL": 0,
+        "HI": 0,
+        "HEI": 0,
+        "TH": 4,
+        "REQUISITOS": "EX. DE INGRESO"
+    },
+    {
+        "N": 2,
+        "SIGLA": "MAT 101",
+        "ASIGNATURA":"CALCULO 1",
+        "HT": 2,
+        "HP": 2,
+        "HL": 0,
+        "HI": 0,
+        "HEI": 0,
+        "TH": 4,
+        "REQUISITOS": "EX. DE INGRESO"
+    },
+    {
+        "N": 2,
+        "SIGLA": "MAT 101",
+        "ASIGNATURA":"CALCULO 1",
+        "HT": 2,
+        "HP": 2,
+        "HL": 0,
+        "HI": 0,
+        "HEI": 0,
+        "TH": 4,
+        "REQUISITOS": "EX. DE INGRESO"
+    },{
+        "N": 2,
+        "SIGLA": "MAT 101",
+        "ASIGNATURA":"CALCULO 1",
+        "HT": 2,
+        "HP": 2,
+        "HL": 0,
+        "HI": 0,
+        "HEI": 0,
+        "TH": 4,
+        "REQUISITOS": "EX. DE INGRESO"
+    },{
+        "N": 2,
+        "SIGLA": "MAT 101",
+        "ASIGNATURA":"CALCULO 1",
+        "HT": 2,
+        "HP": 2,
+        "HL": 0,
+        "HI": 0,
+        "HEI": 0,
+        "TH": 4,
+        "REQUISITOS": "EX. DE INGRESO"
+    },{
+        "N": 2,
+        "SIGLA": "MAT 101",
+        "ASIGNATURA":"CALCULO 1",
+        "HT": 2,
+        "HP": 2,
+        "HL": 0,
+        "HI": 0,
+        "HEI": 0,
+        "TH": 4,
+        "REQUISITOS": "EX. DE INGRESO"
+    }
+]

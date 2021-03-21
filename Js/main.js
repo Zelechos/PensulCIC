@@ -133,51 +133,96 @@ window.addEventListener('load', ()=>{
 //TRAER DATO JSON PARA INTRODUCIRLOS EN LOS TD S            
     let Data = function (){
         let list = [];
+        // AQUI MISMO PUEDO CREAR LOS ID DE LAS ETIQUETAS TR
         let TR = document.createElement("tr");
         TR.className = "data"
-        let text
+
         let input = document.createElement("input");
         input.type = "checkbox";
         input.name = " ";
         input.id = " ";
 
-        
-        for(let i = 0 ; i < 11 ; i++){
-            //AQUI ES DONDE DEBEMOS METER LOS DATOS JSON
-            list[i] =  document.createElement("td");
-            //text = document.createTextNode();
-            //list[i].appendChild(text);
-            if(i == 10){
-                list[i].appendChild(input);
-            }
+        for(let i=0;i<11;i++){
+            list[i]= document.createElement("td");
         }
 
-        
-        list.forEach(element => {
+        list.forEach(element=> {
             TR.appendChild(element);
         });
-        console.log(TR);        
-
+        
+        console.log(TR);
         return TR;
     }
-    
-    
-    function Main(){
+
+    function DataSet(){
         
-        Tabla.appendChild(Etiqueta_FileData());
-        DataForm(Tabla, 5);
-        Tabla1.appendChild(Etiqueta_FileData());
-        DataForm(Tabla1, 6);
-        
+        console.log(Etiqueta);
+        $.get('./Js/Data.json', response =>{
+            console.log(response);
+            //for (let x = 0 ; x < response.length; x++){
+
+                for(let i = 0 ; i<list.length ; i++){
+
+                    if(i==0){
+                        text = document.createTextNode(response[x].N);
+                        list[i].appendChild(text);
+                    }else if(i == 1){
+                        text = document.createTextNode(response[x].SIGLA);
+                        list[i].appendChild(text);
+                    }else if(i == 2){
+                        text = document.createTextNode(response[x].ASIGNATURA);
+                        list[i].appendChild(text);
+                    }else if(i == 3){
+                        text = document.createTextNode(response[x].HT);
+                        list[i].appendChild(text);
+                    }else if(i == 4){
+                        text = document.createTextNode(response[x].HP);
+                        list[i].appendChild(text);
+                    }else if(i == 5){
+                        text = document.createTextNode(response[x].HL);
+                        list[i].appendChild(text);
+                    }else if(i == 6){
+                        text = document.createTextNode(response[x].HI);
+                        list[i].appendChild(text);
+                    }else if(i == 7){
+                        text = document.createTextNode(response[x].HEI);
+                        list[i].appendChild(text);
+                    }else if(i == 8){
+                        text = document.createTextNode(response[x].TH);
+                        list[i].appendChild(text);
+                    }else if(i == 9){
+                        text = document.createTextNode(response[x].REQUISITOS);
+                        list[i].appendChild(text);
+                    }else if(i == 10){
+                        list[i].appendChild(input);
+                    }
+                }
+    });
     }
     
     
     function DataForm(Tabla, Cantidad){
-        let init = 0;
+        let init = 0 , etiqueta;
+        let num = 1;
         while(init < Cantidad){
-            Tabla.appendChild(Data());
+            etiqueta = Data();
+            etiqueta.id = num;
+            Tabla.appendChild(etiqueta);
             init++;
+            num++
         }
+    }
+
+
+
+
+    function Main(){
+        let Tablas_List = [];
+
+        Tabla.appendChild(Etiqueta_FileData());
+        DataForm(Tabla, 5);
+        Tabla1.appendChild(Etiqueta_FileData());
+        DataForm(Tabla1, 10);
     }
     
     Main();
