@@ -50,7 +50,7 @@
 
 .data td{
     background-color: #161b22;
-    border: 1px solid #30363d;
+    border: 0.5px solid #30363d;
     border-radius: 5px;
     text-align: center;
 }
