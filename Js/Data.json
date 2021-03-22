@@ -61,7 +61,7 @@
     },
     {
         "N": 6,
-        "SIGLA": "MAT 101",
+        "SIGLA": "SIS 324",
         "ASIGNATURA":"CALCULO 1",
         "HT": 2,
         "HP": 2,
@@ -119,7 +119,7 @@
     },{
         "N": 11,
         "SIGLA": "MAT 101",
-        "ASIGNATURA":"CALCULO 1",
+        "ASIGNATURA":"CALCULO 3",
         "HT": 2,
         "HP": 2,
         "HL": 0,
@@ -184,6 +184,17 @@
         "REQUISITOS": "EX. DE INGRESO"
     },{
         "N": 17,
+        "SIGLA": "MAT 101",
+        "ASIGNATURA":"CALCULO 1",
+        "HT": 2,
+        "HP": 2,
+        "HL": 0,
+        "HI": 0,
+        "HEI": 0,
+        "TH": 4,
+        "REQUISITOS": "EX. DE INGRESO"
+    },{
+        "N": 18,
         "SIGLA": "MAT 101",
         "ASIGNATURA":"CALCULO 1",
         "HT": 2,
