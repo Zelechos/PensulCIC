@@ -1,6 +1,6 @@
 [
     {
-        "N": 1,
+        "N":  1,
         "SIGLA": "MAT 100",
         "ASIGNATURA":"ALGEBRA 1",
         "HT": 2,
@@ -12,7 +12,7 @@
         "REQUISITOS": "EX. DE INGRESO"
     },
     {
-        "N": 2,
+        "N":  2,
         "SIGLA": "MAT 101",
         "ASIGNATURA":"CALCULO 1",
         "HT": 2,
@@ -24,7 +24,7 @@
         "REQUISITOS": "EX. DE INGRESO"
     },
     {
-        "N": 3,
+        "N":  3,
         "SIGLA": "MAT 101",
         "ASIGNATURA":"CALCULO 1",
         "HT": 2,
@@ -36,7 +36,7 @@
         "REQUISITOS": "EX. DE INGRESO"
     },
     {
-        "N": 4,
+        "N":  4,
         "SIGLA": "MAT 101",
         "ASIGNATURA":"CALCULO 1",
         "HT": 2,
@@ -48,7 +48,7 @@
         "REQUISITOS": "EX. DE INGRESO"
     },
     {
-        "N": 5,
+        "N":  5,
         "SIGLA": "MAT 101",
         "ASIGNATURA":"CALCULO 1",
         "HT": 2,
@@ -60,7 +60,7 @@
         "REQUISITOS": "EX. DE INGRESO"
     },
     {
-        "N": 6,
+        "N":  6,
         "SIGLA": "SIS 324",
         "ASIGNATURA":"CALCULO 1",
         "HT": 2,
@@ -72,8 +72,8 @@
         "REQUISITOS": "EX. DE INGRESO"
     },
     {
-        "N": 7,
-        "SIGLA": "MAT 101",
+        "N":  7,
+        "SIGLA": "ethrum",
         "ASIGNATURA":"CALCULO 1",
         "HT": 2,
         "HP": 2,
@@ -84,7 +84,7 @@
         "REQUISITOS": "EX. DE INGRESO"
     },
     {
-        "N": 8,
+        "N":  8,
         "SIGLA": "MAT 101",
         "ASIGNATURA":"CALCULO 1",
         "HT": 2,
@@ -95,7 +95,7 @@
         "TH": 4,
         "REQUISITOS": "EX. DE INGRESO"
     },{
-        "N": 9,
+        "N":  9,
         "SIGLA": "MAT 101",
         "ASIGNATURA":"CALCULO 1",
         "HT": 2,
@@ -106,7 +106,7 @@
         "TH": 4,
         "REQUISITOS": "EX. DE INGRESO"
     },{
-        "N": 10,
+        "N":  10,
         "SIGLA": "MAT 101",
         "ASIGNATURA":"CALCULO 1",
         "HT": 2,
@@ -117,7 +117,7 @@
         "TH": 4,
         "REQUISITOS": "EX. DE INGRESO"
     },{
-        "N": 11,
+        "N":  11,
         "SIGLA": "MAT 101",
         "ASIGNATURA":"CALCULO 3",
         "HT": 2,
@@ -128,7 +128,7 @@
         "TH": 4,
         "REQUISITOS": "EX. DE INGRESO"
     },{
-        "N": 12,
+        "N":  12,
         "SIGLA": "MAT 101",
         "ASIGNATURA":"CALCULO 1",
         "HT": 2,
@@ -139,7 +139,7 @@
         "TH": 4,
         "REQUISITOS": "EX. DE INGRESO"
     },{
-        "N": 13,
+        "N":  13,
         "SIGLA": "MAT 101",
         "ASIGNATURA":"CALCULO 1",
         "HT": 2,
@@ -150,7 +150,7 @@
         "TH": 4,
         "REQUISITOS": "EX. DE INGRESO"
     },{
-        "N": 14,
+        "N":  14,
         "SIGLA": "MAT 101",
         "ASIGNATURA":"CALCULO 1",
         "HT": 2,
@@ -161,7 +161,7 @@
         "TH": 4,
         "REQUISITOS": "EX. DE INGRESO"
     },{
-        "N": 15,
+        "N":  15,
         "SIGLA": "MAT 101",
         "ASIGNATURA":"CALCULO 1",
         "HT": 2,
@@ -172,7 +172,7 @@
         "TH": 4,
         "REQUISITOS": "EX. DE INGRESO"
     },{
-        "N": 16,
+        "N":  16,
         "SIGLA": "MAT 101",
         "ASIGNATURA":"CALCULO 1",
         "HT": 2,
@@ -183,7 +183,7 @@
         "TH": 4,
         "REQUISITOS": "EX. DE INGRESO"
     },{
-        "N": 17,
+        "N":  17,
         "SIGLA": "MAT 101",
         "ASIGNATURA":"CALCULO 1",
         "HT": 2,
@@ -194,9 +194,405 @@
         "TH": 4,
         "REQUISITOS": "EX. DE INGRESO"
     },{
-        "N": 18,
+        "N":  18,
         "SIGLA": "MAT 101",
         "ASIGNATURA":"CALCULO 1",
+        "HT": 2,
+        "HP": 2,
+        "HL": 0,
+        "HI": 0,
+        "HEI": 0,
+        "TH": 4,
+        "REQUISITOS": "EX. DE INGRESO"
+    },{
+        "N": 19, 
+        "SIGLA": "MAT 101",
+        "ASIGNATURA": "CALCULO 1",
+        "HT": 2,
+        "HP": 2,
+        "HL": 0,
+        "HI": 0,
+        "HEI": 0,
+        "TH": 4,
+        "REQUISITOS": "EX. DE INGRESO"
+    },{
+        "N": 20, 
+        "SIGLA": "MAT 101",
+        "ASIGNATURA": "CALCULO 1",
+        "HT": 2,
+        "HP": 2,
+        "HL": 0,
+        "HI": 0,
+        "HEI": 0,
+        "TH": 4,
+        "REQUISITOS": "EX. DE INGRESO"
+    },{
+        "N": 21, 
+        "SIGLA": "MAT 101",
+        "ASIGNATURA": "CALCULO 1",
+        "HT": 2,
+        "HP": 2,
+        "HL": 0,
+        "HI": 0,
+        "HEI": 0,
+        "TH": 4,
+        "REQUISITOS": "EX. DE INGRESO"
+    },{
+        "N": 22, 
+        "SIGLA": "MAT 101",
+        "ASIGNATURA": "CALCULO 1",
+        "HT": 2,
+        "HP": 2,
+        "HL": 0,
+        "HI": 0,
+        "HEI": 0,
+        "TH": 4,
+        "REQUISITOS": "EX. DE INGRESO"
+    },{
+        "N": 23, 
+        "SIGLA": "MAT 101",
+        "ASIGNATURA": "CALCULO 1",
+        "HT": 2,
+        "HP": 2,
+        "HL": 0,
+        "HI": 0,
+        "HEI": 0,
+        "TH": 4,
+        "REQUISITOS": "EX. DE INGRESO"
+    },{
+        "N": 24, 
+        "SIGLA": "MAT 101",
+        "ASIGNATURA": "CALCULO 1",
+        "HT": 2,
+        "HP": 2,
+        "HL": 0,
+        "HI": 0,
+        "HEI": 0,
+        "TH": 4,
+        "REQUISITOS": "EX. DE INGRESO"
+    },{
+        "N": 25, 
+        "SIGLA": "MAT 101",
+        "ASIGNATURA": "CALCULO 1",
+        "HT": 2,
+        "HP": 2,
+        "HL": 0,
+        "HI": 0,
+        "HEI": 0,
+        "TH": 4,
+        "REQUISITOS": "EX. DE INGRESO"
+    },{
+        "N": 26, 
+        "SIGLA": "MAT 101",
+        "ASIGNATURA": "CALCULO 1",
+        "HT": 2,
+        "HP": 2,
+        "HL": 0,
+        "HI": 0,
+        "HEI": 0,
+        "TH": 4,
+        "REQUISITOS": "EX. DE INGRESO"
+    },{
+        "N": 27, 
+        "SIGLA": "MAT 101",
+        "ASIGNATURA": "CALCULO 1",
+        "HT": 2,
+        "HP": 2,
+        "HL": 0,
+        "HI": 0,
+        "HEI": 0,
+        "TH": 4,
+        "REQUISITOS": "EX. DE INGRESO"
+    },{
+        "N": 28, 
+        "SIGLA": "MAT 101",
+        "ASIGNATURA": "CALCULO 1",
+        "HT": 2,
+        "HP": 2,
+        "HL": 0,
+        "HI": 0,
+        "HEI": 0,
+        "TH": 4,
+        "REQUISITOS": "EX. DE INGRESO"
+    },{
+        "N": 29, 
+        "SIGLA": "MAT 101",
+        "ASIGNATURA": "CALCULO 1",
+        "HT": 2,
+        "HP": 2,
+        "HL": 0,
+        "HI": 0,
+        "HEI": 0,
+        "TH": 4,
+        "REQUISITOS": "EX. DE INGRESO"
+    },{
+        "N": 30, 
+        "SIGLA": "MAT 101",
+        "ASIGNATURA": "CALCULO 1",
+        "HT": 2,
+        "HP": 2,
+        "HL": 0,
+        "HI": 0,
+        "HEI": 0,
+        "TH": 4,
+        "REQUISITOS": "EX. DE INGRESO"
+    },{
+        "N": 31, 
+        "SIGLA": "MAT 101",
+        "ASIGNATURA": "CALCULO 1",
+        "HT": 2,
+        "HP": 2,
+        "HL": 0,
+        "HI": 0,
+        "HEI": 0,
+        "TH": 4,
+        "REQUISITOS": "EX. DE INGRESO"
+    },{
+        "N": 32, 
+        "SIGLA": "MAT 101",
+        "ASIGNATURA": "CALCULO 1",
+        "HT": 2,
+        "HP": 2,
+        "HL": 0,
+        "HI": 0,
+        "HEI": 0,
+        "TH": 4,
+        "REQUISITOS": "EX. DE INGRESO"
+    },{
+        "N": 33, 
+        "SIGLA": "MAT 101",
+        "ASIGNATURA": "CALCULO 1",
+        "HT": 2,
+        "HP": 2,
+        "HL": 0,
+        "HI": 0,
+        "HEI": 0,
+        "TH": 4,
+        "REQUISITOS": "EX. DE INGRESO"
+    },{
+        "N": 34, 
+        "SIGLA": "MAT 101",
+        "ASIGNATURA": "CALCULO 1",
+        "HT": 2,
+        "HP": 2,
+        "HL": 0,
+        "HI": 0,
+        "HEI": 0,
+        "TH": 4,
+        "REQUISITOS": "EX. DE INGRESO"
+    },{
+        "N": 35, 
+        "SIGLA": "MAT 101",
+        "ASIGNATURA": "CALCULO 1",
+        "HT": 2,
+        "HP": 2,
+        "HL": 0,
+        "HI": 0,
+        "HEI": 0,
+        "TH": 4,
+        "REQUISITOS": "EX. DE INGRESO"
+    },{
+        "N": 36, 
+        "SIGLA": "MAT 101",
+        "ASIGNATURA": "CALCULO 1",
+        "HT": 2,
+        "HP": 2,
+        "HL": 0,
+        "HI": 0,
+        "HEI": 0,
+        "TH": 4,
+        "REQUISITOS": "EX. DE INGRESO"
+    },{
+        "N": 37, 
+        "SIGLA": "MAT 101",
+        "ASIGNATURA": "CALCULO 1",
+        "HT": 2,
+        "HP": 2,
+        "HL": 0,
+        "HI": 0,
+        "HEI": 0,
+        "TH": 4,
+        "REQUISITOS": "EX. DE INGRESO"
+    },{
+        "N": 38, 
+        "SIGLA": "MAT 101",
+        "ASIGNATURA": "CALCULO 1",
+        "HT": 2,
+        "HP": 2,
+        "HL": 0,
+        "HI": 0,
+        "HEI": 0,
+        "TH": 4,
+        "REQUISITOS": "EX. DE INGRESO"
+    },{
+        "N": 39, 
+        "SIGLA": "MAT 101",
+        "ASIGNATURA": "CALCULO 1",
+        "HT": 2,
+        "HP": 2,
+        "HL": 0,
+        "HI": 0,
+        "HEI": 0,
+        "TH": 4,
+        "REQUISITOS": "EX. DE INGRESO"
+    },{
+        "N": 40, 
+        "SIGLA": "MAT 101",
+        "ASIGNATURA": "CALCULO 1",
+        "HT": 2,
+        "HP": 2,
+        "HL": 0,
+        "HI": 0,
+        "HEI": 0,
+        "TH": 4,
+        "REQUISITOS": "EX. DE INGRESO"
+    },{
+        "N": 41, 
+        "SIGLA": "MAT 101",
+        "ASIGNATURA": "CALCULO 1",
+        "HT": 2,
+        "HP": 2,
+        "HL": 0,
+        "HI": 0,
+        "HEI": 0,
+        "TH": 4,
+        "REQUISITOS": "EX. DE INGRESO"
+    },{
+        "N": 42, 
+        "SIGLA": "MAT 101",
+        "ASIGNATURA": "CALCULO 1",
+        "HT": 2,
+        "HP": 2,
+        "HL": 0,
+        "HI": 0,
+        "HEI": 0,
+        "TH": 4,
+        "REQUISITOS": "EX. DE INGRESO"
+    },{
+        "N": 43, 
+        "SIGLA": "MAT 101",
+        "ASIGNATURA": "CALCULO 1",
+        "HT": 2,
+        "HP": 2,
+        "HL": 0,
+        "HI": 0,
+        "HEI": 0,
+        "TH": 4,
+        "REQUISITOS": "EX. DE INGRESO"
+    },{
+        "N": 44, 
+        "SIGLA": "MAT 101",
+        "ASIGNATURA": "CALCULO 1",
+        "HT": 2,
+        "HP": 2,
+        "HL": 0,
+        "HI": 0,
+        "HEI": 0,
+        "TH": 4,
+        "REQUISITOS": "EX. DE INGRESO"
+    },{
+        "N": 45, 
+        "SIGLA": "MAT 101",
+        "ASIGNATURA": "CALCULO 1",
+        "HT": 2,
+        "HP": 2,
+        "HL": 0,
+        "HI": 0,
+        "HEI": 0,
+        "TH": 4,
+        "REQUISITOS": "EX. DE INGRESO"
+    },{
+        "N": 46, 
+        "SIGLA": "MAT 101",
+        "ASIGNATURA": "CALCULO 1",
+        "HT": 2,
+        "HP": 2,
+        "HL": 0,
+        "HI": 0,
+        "HEI": 0,
+        "TH": 4,
+        "REQUISITOS": "EX. DE INGRESO"
+    },{
+        "N": 47, 
+        "SIGLA": "MAT 101",
+        "ASIGNATURA": "CALCULO 1",
+        "HT": 2,
+        "HP": 2,
+        "HL": 0,
+        "HI": 0,
+        "HEI": 0,
+        "TH": 4,
+        "REQUISITOS": "EX. DE INGRESO"
+    },{
+        "N": 48, 
+        "SIGLA": "MAT 101",
+        "ASIGNATURA": "CALCULO 1",
+        "HT": 2,
+        "HP": 2,
+        "HL": 0,
+        "HI": 0,
+        "HEI": 0,
+        "TH": 4,
+        "REQUISITOS": "EX. DE INGRESO"
+    },{
+        "N": 49, 
+        "SIGLA": "MAT 101",
+        "ASIGNATURA": "CALCULO 1",
+        "HT": 2,
+        "HP": 2,
+        "HL": 0,
+        "HI": 0,
+        "HEI": 0,
+        "TH": 4,
+        "REQUISITOS": "EX. DE INGRESO"
+    },{
+        "N": 50, 
+        "SIGLA": "MAT 101",
+        "ASIGNATURA": "CALCULO 1",
+        "HT": 2,
+        "HP": 2,
+        "HL": 0,
+        "HI": 0,
+        "HEI": 0,
+        "TH": 4,
+        "REQUISITOS": "EX. DE INGRESO"
+    },{
+        "N": 51, 
+        "SIGLA": "MAT 101",
+        "ASIGNATURA": "CALCULO 1",
+        "HT": 2,
+        "HP": 2,
+        "HL": 0,
+        "HI": 0,
+        "HEI": 0,
+        "TH": 4,
+        "REQUISITOS": "EX. DE INGRESO"
+    },{
+        "N": 52, 
+        "SIGLA": "MAT 101",
+        "ASIGNATURA": "CALCULO 1",
+        "HT": 2,
+        "HP": 2,
+        "HL": 0,
+        "HI": 0,
+        "HEI": 0,
+        "TH": 4,
+        "REQUISITOS": "EX. DE INGRESO"
+    },{
+        "N": 53, 
+        "SIGLA": "MAT 101",
+        "ASIGNATURA": "CALCULO 1",
+        "HT": 2,
+        "HP": 2,
+        "HL": 0,
+        "HI": 0,
+        "HEI": 0,
+        "TH": 4,
+        "REQUISITOS": "EX. DE INGRESO"
+    },{
+        "N": 54, 
+        "SIGLA": "MAT 101",
+        "ASIGNATURA": "CALCULO 1",
         "HT": 2,
         "HP": 2,
         "HL": 0,

@@ -5,6 +5,13 @@ window.addEventListener('load', ()=>{
     let Tabla = document.querySelector("#Tabla");
     let Tabla1 = document.querySelector("#Tabla1");
     let Tabla2 = document.querySelector("#Tabla2");
+    let Tabla3 = document.querySelector("#Tabla3");
+    let Tabla4 = document.querySelector("#Tabla4");
+    let Tabla5 = document.querySelector("#Tabla5");
+    let Tabla6 = document.querySelector("#Tabla6");
+    let Tabla7 = document.querySelector("#Tabla7");
+    let Tabla8 = document.querySelector("#Tabla8");
+    let Tabla9 = document.querySelector("#Tabla9");
 
     let Etiqueta_FileData = function (){
         let list = [];
@@ -39,7 +46,6 @@ window.addEventListener('load', ()=>{
         list.forEach(element => {
             TR.appendChild(element);
         });
-        console.log(TR);        
 
         return TR;
     }
@@ -109,7 +115,6 @@ window.addEventListener('load', ()=>{
             TR.appendChild(element);
         });
         
-        console.log(TR);
         return TR;
     }
     
@@ -135,6 +140,22 @@ window.addEventListener('load', ()=>{
         DataForm(Tabla1, 6 , 6);
         Tabla2.appendChild(Etiqueta_FileData());
         DataForm(Tabla2, 6 , 12);
+        Tabla3.appendChild(Etiqueta_FileData());
+        DataForm(Tabla3, 6 , 18);
+        Tabla4.appendChild(Etiqueta_FileData());
+        DataForm(Tabla4, 6 , 24);
+        Tabla5.appendChild(Etiqueta_FileData());
+        DataForm(Tabla5, 6 , 30);
+        Tabla6.appendChild(Etiqueta_FileData());
+        DataForm(Tabla6, 6 , 36);
+        Tabla7.appendChild(Etiqueta_FileData());
+        DataForm(Tabla7, 6 , 42);
+        Tabla8.appendChild(Etiqueta_FileData());
+        DataForm(Tabla8, 6 , 48);
+        Tabla9.appendChild(Etiqueta_FileData());
+        DataForm(Tabla9, 1 , 54);
+
+
     }
     
     Main();
