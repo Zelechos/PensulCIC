@@ -5,10 +5,18 @@
     color: #cdd9e5;
 }
 
+#particles-js{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 290vh;
+}
+
 .container{
     width: 80%;
     margin: auto;
-    background-color:#090c10;
+    background-color: transparent;
+    position: absolute;
 }
 
 .table-style{
