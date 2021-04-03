@@ -2,7 +2,7 @@
     {
         "N":  1,
         "SIGLA": "MAT 100",
-        "ASIGNATURA":"ALGEBRA 1",
+        "ASIGNATURA":"ALGEBRA I",
         "HT": 2,
         "HP": 2,
         "HL": 0,
@@ -14,7 +14,7 @@
     {
         "N":  2,
         "SIGLA": "MAT 101",
-        "ASIGNATURA":"CALCULO 1",
+        "ASIGNATURA":"CALCULO I",
         "HT": 2,
         "HP": 2,
         "HL": 0,
@@ -26,7 +26,7 @@
     {
         "N":  3,
         "SIGLA": "FIS 100",
-        "ASIGNATURA":"FISICA BASICA 1",
+        "ASIGNATURA":"FISICA BASICA I",
         "HT": 2,
         "HP": 2,
         "HL": 2,
@@ -61,72 +61,72 @@
     },
     {
         "N":  6,
-        "SIGLA": "SIS 324",
-        "ASIGNATURA":"CALCULO 1",
+        "SIGLA": "MAT 103",
+        "ASIGNATURA":"ÁLGEBRA II",
         "HT": 2,
         "HP": 2,
         "HL": 0,
         "HI": 0,
-        "HEI": 0,
+        "HEI": 4,
         "TH": 4,
-        "REQUISITOS": "EX. DE INGRESO"
+        "REQUISITOS": "MAT 100"
     },
     {
         "N":  7,
-        "SIGLA": "ethrum",
-        "ASIGNATURA":"CALCULO 1",
+        "SIGLA": "MAT 102",
+        "ASIGNATURA":"CALCULO II",
         "HT": 2,
         "HP": 2,
         "HL": 0,
         "HI": 0,
-        "HEI": 0,
+        "HEI": 4,
         "TH": 4,
-        "REQUISITOS": "EX. DE INGRESO"
+        "REQUISITOS": "MAT 101"
     },
     {
         "N":  8,
-        "SIGLA": "MAT 101",
-        "ASIGNATURA":"CALCULO 1",
+        "SIGLA": "FIS 200",
+        "ASIGNATURA":"FÍSICA BÁSICA III",
         "HT": 2,
         "HP": 2,
-        "HL": 0,
+        "HL": 2,
         "HI": 0,
-        "HEI": 0,
-        "TH": 4,
-        "REQUISITOS": "EX. DE INGRESO"
+        "HEI": 6,
+        "TH": 5,
+        "REQUISITOS": "FIS 100,MAT 101"
     },{
         "N":  9,
-        "SIGLA": "MAT 101",
-        "ASIGNATURA":"CALCULO 1",
+        "SIGLA": "SIS 101",
+        "ASIGNATURA":"PROGRAMACIÓN INTERMEDIA",
         "HT": 2,
-        "HP": 2,
-        "HL": 0,
+        "HP": 0,
+        "HL": 4,
         "HI": 0,
-        "HEI": 0,
+        "HEI": 6,
         "TH": 4,
-        "REQUISITOS": "EX. DE INGRESO"
+        "REQUISITOS": "SIS 100"
     },{
         "N":  10,
-        "SIGLA": "MAT 101",
-        "ASIGNATURA":"CALCULO 1",
+        "SIGLA": "SIS 103",
+        "ASIGNATURA":"METODOLOGÍA DE LA PROGRAMACIÓN",
         "HT": 2,
-        "HP": 2,
-        "HL": 0,
+        "HP": 0,
+        "HL": 2,
         "HI": 0,
-        "HEI": 0,
-        "TH": 4,
-        "REQUISITOS": "EX. DE INGRESO"
+        "HEI": 4,
+        "TH": 3,
+        "REQUISITOS": "SIS 100"
     },{
         "N":  11,
-        "SIGLA": "MAT 101",
-        "ASIGNATURA":"CALCULO 3",
+        "SIGLA": "SIS 308",
+        "ASIGNATURA":"TEORÍA DE SISTEMAS",
         "HT": 2,
         "HP": 2,
         "HL": 0,
         "HI": 0,
-        "HEI": 0,
+        "HEI": 4,
         "TH": 4,
-        "REQUISITOS": "EX. DE INGRESO"
+        "REQUISITOS": "SHC 100"
     },{
         "N":  12,
         "SIGLA": "MAT 101",
