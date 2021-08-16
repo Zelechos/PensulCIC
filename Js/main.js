@@ -133,7 +133,6 @@ window.addEventListener('load', ()=>{
 
     function Main(){
         let Tablas_List = [];
-        
         Tabla.appendChild(Etiqueta_FileData());
         DataForm(Tabla, 5 , 1);
         Tabla1.appendChild(Etiqueta_FileData());
@@ -154,8 +153,6 @@ window.addEventListener('load', ()=>{
         DataForm(Tabla8, 6 , 48);
         Tabla9.appendChild(Etiqueta_FileData());
         DataForm(Tabla9, 1 , 54);
-
-
     }
     
     Main();
