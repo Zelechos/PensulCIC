@@ -5,18 +5,14 @@
     color: #cdd9e5;
 }
 
-#particles-js{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    height: 290vh;
-}
-
 .container{
-    width: 80%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
     margin: auto;
     background-color: transparent;
-    position: absolute;
 }
 
 .table-style{
@@ -29,13 +25,16 @@
     border-radius: 5px;
     width: 100%;
     text-align: center;
-    margin-bottom: -15px;
 }
+
 .subtitle{
+    width: 100%;
     background-color: #00602d;
     border-radius: 5px;
-    padding: 2px;
-    margin-bottom: -1px;
+    padding: 5px;
+    bottom: 50px;
+    z-index: 5;
+    text-align: center;
 }
 
 .fila-data td{ 
