@@ -15,28 +15,23 @@ window.addEventListener('load', ()=>{
 
     let Etiqueta_FileData = function (){
         let list = [];
-        let contentlist = ["N","SIGLA","NOMBRE DE LA ASIGNATURA", "H.T", "H.P", "H.L", "H.I","H.E.I", "T.H", "PRE REQUISITOS","AP"];
+        let contentlist = ["N","SIGLA","NOMBRE DE LA ASIGNATURA", "PRE REQUISITOS","APROBADO"];
         let TR = document.createElement("tr");
         TR.className = "fila-data"
         let text
-        let s = "small";
 
-        for(let i = 0 ; i < 11 ; i++){
+        for(let i = 0 ; i < 5 ; i++){
             list[i] =  document.createElement("td");
-            if(i == 0 ){
-                list[i].className= s;
+            if( i == 0 ){
+                list[i].className= "small";
                 text = document.createTextNode(contentlist[i]);
                 list[i].appendChild(text);
-            }else if(i == 1 || i == 9){
+            }else if(i == 1 || i > 2){
                 list[i].className="medium";
                 text = document.createTextNode(contentlist[i]);
                 list[i].appendChild(text);
             }else if(i == 2){
                 list[i].className="big";
-                text = document.createTextNode(contentlist[i]);
-                list[i].appendChild(text);
-            }else{
-                list[i].className= s;
                 text = document.createTextNode(contentlist[i]);
                 list[i].appendChild(text);
             }
@@ -63,8 +58,9 @@ window.addEventListener('load', ()=>{
         input.type = "checkbox";
         input.name = " ";
         input.id = " ";
-        //let URLS = [,'./Js/2do.SEMESTRE.json'];
-        for(let i=0;i<11;i++){
+        
+        //Controla la Creacion de Td
+        for(let i=0; i < 5; i++){
             list[i]= document.createElement("td");
         }
 
@@ -83,27 +79,9 @@ window.addEventListener('load', ()=>{
                             text = document.createTextNode(response[index].ASIGNATURA);
                             list[i].appendChild(text);
                         }else if(i == 3){
-                            text = document.createTextNode(response[index].HT);
-                            list[i].appendChild(text);
-                        }else if(i == 4){
-                            text = document.createTextNode(response[index].HP);
-                            list[i].appendChild(text);
-                        }else if(i == 5){
-                            text = document.createTextNode(response[index].HL);
-                            list[i].appendChild(text);
-                        }else if(i == 6){
-                            text = document.createTextNode(response[index].HI);
-                            list[i].appendChild(text);
-                        }else if(i == 7){
-                            text = document.createTextNode(response[index].HEI);
-                            list[i].appendChild(text);
-                        }else if(i == 8){
-                            text = document.createTextNode(response[index].TH);
-                            list[i].appendChild(text);
-                        }else if(i == 9){
                             text = document.createTextNode(response[index].REQUISITOS);
                             list[i].appendChild(text);
-                        }else if(i == 10){
+                        }else if(i == 4){
                             list[i].appendChild(input);
                         }
                     }   
@@ -118,7 +96,7 @@ window.addEventListener('load', ()=>{
         return TR;
     }
     
-    //Funcion para crear la cantidad de filas para una trabla dinamicamente
+    //Funcion para crear la cantidad de filas para una tabla dinamicamente
     function DataForm(Tabla, Cantidad,n){
         let init = 0 , etiqueta;
         let num = n;
