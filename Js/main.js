@@ -126,13 +126,12 @@ window.addEventListener('load', ()=>{
         Tabla6.appendChild(Etiqueta_FileData());
         DataForm(Tabla6, 6 , 36);
         Tabla7.appendChild(Etiqueta_FileData());
-        DataForm(Tabla7, 6 , 42);
+        DataForm(Tabla7, 7 , 42);
         Tabla8.appendChild(Etiqueta_FileData());
-        DataForm(Tabla8, 6 , 48);
+        DataForm(Tabla8, 3 , 49);
         Tabla9.appendChild(Etiqueta_FileData());
-        DataForm(Tabla9, 1 , 54);
+        DataForm(Tabla9, 1 , 52);
     }
     
     Main();
-    
 });
