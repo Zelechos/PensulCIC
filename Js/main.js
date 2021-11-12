@@ -1,3 +1,4 @@
+// cambio en javascript
 'use strict'
 
 window.addEventListener('load', ()=>{
