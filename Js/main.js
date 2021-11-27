@@ -1,5 +1,5 @@
 'use strict'
-
+// eventlistener para cargar nuestro arichivos
 window.addEventListener('load', ()=>{
 
     let Tabla = document.querySelector("#Tabla");
