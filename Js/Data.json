@@ -46,222 +46,266 @@
         "SIGLA": "FIS 200",
         "ASIGNATURA":"FÍSICA BÁSICA III",
         "REQUISITOS": "FIS 100,MAT 101"
-    },{
+    },
+    {
         "N":  9,
         "SIGLA": "SIS 101",
         "ASIGNATURA":"PROGRAMACIÓN INTERMEDIA",
         "REQUISITOS": "SIS 100"
-    },{
+    },
+    {
         "N":  10,
         "SIGLA": "SIS 103",
         "ASIGNATURA":"METODOLOGÍA DE LA PROGRAMACIÓN",
         "REQUISITOS": "SIS 100"
-    },{
+    },
+    {
         "N":  11,
         "SIGLA": "SIS 308",
         "ASIGNATURA":"TEORÍA DE SISTEMAS",
         "REQUISITOS": "SHC 100"
-    },{
+    },
+    {
         "N":  12,
         "SIGLA": "MAT 280",
         "ASIGNATURA":"PROBABILIDAD Y ESTADÍSTICA",
         "REQUISITOS": "MAT 102, MAT 103"
-    },{
+    },
+    {
         "N":  13,
         "SIGLA": "SIS 457",
         "ASIGNATURA":"PROGRAMACIÓN AVANZADA",
         "REQUISITOS": "SIS 101, SIS 103"
-    },{
+    },
+    {
         "N":  14,
         "SIGLA": "SIS 204",
         "ASIGNATURA":"ESTRUCTURA DE DATOS",
         "REQUISITOS": "SIS 101"
-    },{
+    },
+    {
         "N":  15,
         "SIGLA": "SIS 302",
         "ASIGNATURA":"BASE DE DATOS I",
         "REQUISITOS": "SIS 101"
-    },{
+    },
+    {
         "N":  16,
         "SIGLA": "SIS 107",
         "ASIGNATURA":"ARQUITECTURA DE COMPUTADORAS",
         "REQUISITOS": "FIS 200"
-    },{
+    },
+    {
         "N":  17,
         "SIGLA": "GEN 410",
         "ASIGNATURA":"METODOLOGÍA DE LA INVESTIGACIÓN",
         "REQUISITOS": "SIS 308"
-    },{
+    },
+    {
         "N":  18,
         "SIGLA": "SIS 304",
         "ASIGNATURA":"BASE DE DATOS II",
         "REQUISITOS": "SIS 302"
-    },{
+    },
+    {
         "N": 19, 
         "SIGLA": "SIS 251",
         "ASIGNATURA": "REDES DE DATOS I",
         "REQUISITOS": "SIS 107"
-    },{
+    },
+    {
         "N": 20, 
         "SIGLA": "SIS 110",
         "ASIGNATURA": "SISTEMAS OPERATIVOS I",
         "REQUISITOS": "SIS 107"
-    },{    
+    },
+    {    
         "N": 21, 
         "SIGLA": "SIS 120",
         "ASIGNATURA": "LENGUAJES FORMALES",
         "REQUISITOS": "SIS 457,MAT 280"
-    },{
+    },
+    {
         "N": 22, 
         "SIGLA": "SIS 407",
         "ASIGNATURA": "INTERACCION HUMANO COMPUTADOR",
         "REQUISITOS": "SIS 457, SIS 204"
-    },{
+    },
+    {
         "N": 23, 
         "SIGLA": "SIS 125",
         "ASIGNATURA": "INGENIERÍA DE REQUERIMIENTOS",
         "REQUISITOS": "GEN 410"
-    },{
+    },
+    {
         "N": 24, 
         "SIGLA": "SIS 252",
         "ASIGNATURA": "REDES DE DATOS II",
         "REQUISITOS": "SIS 251"
-    },{
+    },
+    {
         "N": 25, 
         "SIGLA": "SIS 313",
         "ASIGNATURA": "INFRAESTRUCTURA, PLATAFORMAS TECNOLÓGICAS Y REDES",
         "REQUISITOS": "SIS 251,SIS 110"
-    },{
+    },
+    {
         "N": 26, 
         "SIGLA": "SIS 324",
         "ASIGNATURA": "INGENIERIA DE SOFTWARE",
         "REQUISITOS": "SIS 125"
-    },{
+    },
+    {
         "N": 27, 
         "SIGLA": "SIS 256",
         "ASIGNATURA": "TECNOLOGIAS Y DESARROLLO WEB",
         "REQUISITOS": "SIS 304, SIS 407"
-    },{
+    },
+    {
         "N": 28, 
         "SIGLA": "SIS 315",
         "ASIGNATURA": "SISTEMAS DE GESTIÓN EMPRESARIAL",
         "REQUISITOS": "SIS 125"
-    },{
+    },
+    {
         "N": 29, 
         "SIGLA": "SIS 420",
         "ASIGNATURA": "INTELIGENCIA ARTIFICIAL I",
         "REQUISITOS": "SIS 120, SIS 304"
-    },{
+    },
+    {
         "N": 30, 
         "SIGLA": "COM 350",
         "ASIGNATURA": "ARQUITECTURA DE SOFTWARE",
         "REQUISITOS": "SIS 324"
-    },{
+    },
+    {
         "N": 31, 
         "SIGLA": "COM 460",
         "ASIGNATURA": "SISTEMAS DE TIEMPO REAL",
         "REQUISITOS": "SIS 324, SIS 252"
-    },{
+    },
+    {
         "N": 32, 
         "SIGLA": "SIS 104",
         "ASIGNATURA": "DESARROLLO DE APLICACIONES MÓVILES",
         "REQUISITOS": "SIS 313,SIS 256"
-    },{
+    },
+    {
         "N": 33, 
         "SIGLA": "SIS 258",
         "ASIGNATURA": "SISTEMAS DISTRIBUIDOS",
         "REQUISITOS": "SIS 313,SIS 315"
-    },{
+    },
+    {
         "N": 34, 
         "SIGLA": "SIS 427",
         "ASIGNATURA": "TECNOLOGIAS EMERGENTES EN INTERNET",
         "REQUISITOS": "SIS 256, SIS 315"
-    },{
+    },
+    {
         "N": 35, 
         "SIGLA": "SIS 421",
         "ASIGNATURA": "INTELIGENCIA ARTIFICIAL II",
         "REQUISITOS": "SIS 420"
-    },{
+    },
+    {
         "N": 36, 
         "SIGLA": "COM 450",
         "ASIGNATURA": "CALIDAD DE SOFTWARE",
         "REQUISITOS": "COM 350"
-    },{
+    },
+    {
         "N": 37, 
         "SIGLA": "COM 470",
         "ASIGNATURA": "PRUEBA Y MANTENIMIENTO DE SOFTWARE",
         "REQUISITOS": "COM 350,SIS 104"
-    },{
+    },
+    {
         "N": 38, 
         "SIGLA": "SIS 254",
         "ASIGNATURA": "SEGURIDAD DE LA INFORMACIÓN",
         "REQUISITOS": "COM 460, SIS 258"
-    },{
+    },
+    {
         "N": 39, 
         "SIGLA": "SIS 330",
         "ASIGNATURA": "DESARROLLO DE APLICACIONES INTELIGENTES",
         "REQUISITOS": "SIS 427,SIS 421"
-    },{
+    },
+    {
         "N": 40, 
         "SIGLA": "COM 480",
         "ASIGNATURA": "ROBÓTICA I",
         "REQUISITOS": "SIS 421"
-    },{
+    },
+    {
         "N": 41, 
         "SIGLA": "SHC 120",
         "ASIGNATURA": "OPTATIVA I",
         "REQUISITOS": "6to. SEMESTRE"
-    },{
+    },
+    {
         "N": 42, 
         "SIGLA": "SIS 325",
         "ASIGNATURA": "ADMINISTRACIÓN DE PROYECTOS DE SOFTWARE",
         "REQUISITOS": "COM 450,COM 470"
-    },{
+    },
+    {
         "N": 43, 
         "SIGLA": "SIS 306",
         "ASIGNATURA": "BASE DE DATOS III",
         "REQUISITOS": "SIS 330"
-    },{
+    },
+    {
         "N": 44, 
         "SIGLA": "SIS 316",
         "ASIGNATURA": "AUDITORÍA DE SISTEMAS",
         "REQUISITOS": "COM 450, SIS 254"
-    },{
+    },
+    {
         "N": 45, 
         "SIGLA": "COM 520",
         "ASIGNATURA": "ROBÓTICA II",
         "REQUISITOS": "COM 480,SIS 330"
-    },{
+    },
+    {
         "N": 46, 
         "SIGLA": "SHC 130",
         "ASIGNATURA": "TALLER DE ESPECIALIDAD",
         "REQUISITOS": "7mo. SEMESTRE"
-    },{
+    },
+    {
         "N": 47, 
         "SIGLA": "SHC 140",
         "ASIGNATURA": "OPTATIVA II",
         "REQUISITOS": "SHC 120"
-    },{
+    },
+    {
         "N": 48, 
         "SIGLA": "SHC 150",
         "ASIGNATURA": "OPTATIVA III",
         "REQUISITOS": "SHC 120"
-    },{
+    },
+    {
         "N": 49, 
         "SIGLA": "SHC 160",
         "ASIGNATURA": "ÉTICA, INGENIERÍA LEGAL Y EMPRENDEDURISMO",
         "REQUISITOS": "SHC 130"
-    },{
+    },
+    {
         "N": 50, 
         "SIGLA": "SHC 170",
         "ASIGNATURA": "PRÁCTICA LABORAL",
         "REQUISITOS": "8vo. SEMESTRE"
-    },{
+    },
+    {
         "N": 51, 
         "SIGLA": "SHC 180",
         "ASIGNATURA": "TALLER DE GRADO",
         "REQUISITOS": "8vo. SEMESTRE"
-    },{
+    },
+    {
         "N": 52, 
         "SIGLA": "SHC 190",
         "ASIGNATURA": "TRABAJO DE TITULACIÓN",
