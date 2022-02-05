@@ -15,18 +15,18 @@ window.addEventListener('load', ()=>{
 
     let Etiqueta_FileData = function (){
         let list = [];
-        let contentlist = ["N","SIGLA","NOMBRE DE LA ASIGNATURA", "PRE REQUISITOS","APROBADO"];
+        let contentlist = ["N","SIGLA","NOMBRE DE LA ASIGNATURA", "PRE REQUISITOS","APRO"];
         let TR = document.createElement("tr");
         TR.className = "fila-data"
         let text
 
         for(let i = 0 ; i < 5 ; i++){
             list[i] =  document.createElement("td");
-            if( i == 0 ){
+            if( i === 0 || i === 4 ){
                 list[i].className= "small";
                 text = document.createTextNode(contentlist[i]);
                 list[i].appendChild(text);
-            }else if(i == 1 || i > 2){
+            }else if(i === 1 || i === 3){
                 list[i].className="medium";
                 text = document.createTextNode(contentlist[i]);
                 list[i].appendChild(text);
@@ -46,6 +46,13 @@ window.addEventListener('load', ()=>{
     }
 
 
+// FUNCION PARA MARCAR LAS MATERIAS APROBADAS
+const approved = (numberSubject, etiqueta, subjects)=>{
+    if(numberSubject < subjects){
+        etiqueta.checked="checked";
+    }
+}
+
 //TRAER DATO JSON PARA INTRODUCIRLOS EN LOS TD S            
     let Data = function (num){
         let list = [], text;
@@ -53,11 +60,15 @@ window.addEventListener('load', ()=>{
         let TR = document.createElement("tr");
         TR.className = "data"
         TR.id = num;
+
         let index = num-1;
         let input = document.createElement("input");
         input.type = "checkbox";
-        input.name = " ";
-        input.id = " ";
+        input.className = "checkboxes";
+        // se pone como parametro 41 porque ya aprobe todas las de septimo semestre
+        approved(index, input, 41);
+
+
         
         //Controla la Creacion de Td
         for(let i=0; i < 5; i++){
@@ -68,7 +79,7 @@ window.addEventListener('load', ()=>{
             //Dado que el valor de el json es un array empieza del indice 0 por eso index = 0
                 if(Number(TR.id) == response[index].N){
                         for(let i = 0 ; i<list.length ; i++){
-
+                            
                         if(i==0){
                             text = document.createTextNode(response[index].N);
                             list[i].appendChild(text);
@@ -109,6 +120,8 @@ window.addEventListener('load', ()=>{
         }
     }
 
+    
+
     function Main(){
         let Tablas_List = [];
         Tabla.appendChild(Etiqueta_FileData());
@@ -134,4 +147,6 @@ window.addEventListener('load', ()=>{
     }
     
     Main();
+    
+    
 });
