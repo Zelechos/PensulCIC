@@ -15,7 +15,7 @@ window.addEventListener('load', ()=>{
 
     let Etiqueta_FileData = function (){
         let list = [];
-        let contentlist = ["N","SIGLA","NOMBRE DE LA ASIGNATURA", "PRE REQUISITOS","APRO"];
+        let contentlist = ["N","SIGLA","NOMBRE DE LA ASIGNATURA", "PRE REQUISITOS","AP"];
         let TR = document.createElement("tr");
         TR.className = "fila-data"
         let text
