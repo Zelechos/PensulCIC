@@ -75,7 +75,7 @@ const approved = (numberSubject, etiqueta, subjects)=>{
             list[i]= document.createElement("td");
         }
 
-        $.get('./Js/Data.json', response =>{
+        $.get('./js/data.json', response =>{
             //Dado que el valor de el json es un array empieza del indice 0 por eso index = 0
                 if(Number(TR.id) == response[index].N){
                         for(let i = 0 ; i<list.length ; i++){
