@@ -12,12 +12,10 @@ export default class Tables{
 
             (index === 0)
             ? content += `<h1 class="title">INGENIERIA EN CIENCIAS DE LA COMPUTACION</h1>
-            <h3 class="subtitle" id="${index}">SEMESTRE 1</h3>
-            <table class="table-style" id="Tabla">
-            </table> \n`
+<h3 class="subtitle" id="${index}">SEMESTRE 1</h3>
+            <table class="table-style" id="Tabla"></table>\n`
             : content += `<h3 class="subtitle" id="${index}">SEMESTRE ${index+1}</h3>
-            <table class="table-style" id="Tabla${index}">
-            </table> \n`
+            <table class="table-style" id="Tabla${index}"></table>\n`
         }
         console.log(content);
         this.container.innerHTML = content;
