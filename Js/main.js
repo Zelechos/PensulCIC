@@ -4,7 +4,7 @@ import Tables from './tables.js';
 
 window.addEventListener('DOMContentLoaded', ()=>{
 
-//  ------------------- Instanacia de Tables para pintar las Tablas -------------------
+//  ------------------- Instancia para pintar las Tablas -------------------
     const table = new Tables("container");
     table.printTables();
     
