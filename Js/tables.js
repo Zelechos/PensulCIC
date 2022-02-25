@@ -7,7 +7,7 @@ export default class Tables{
 
     print(){
 
-        let content;
+        let content = ``;
         for (let index = 0; index < 10; index++) {
 
             (index === 0)
