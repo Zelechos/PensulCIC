@@ -1,10 +1,12 @@
 'use strict'
+// ------------------- Imports -------------------
 import Tables from './tables.js';
-// eventlistener para cargar nuestro arichivos
+
 window.addEventListener('DOMContentLoaded', ()=>{
 
+//  ------------------- Instanacia de Tables para pintar las Tablas -------------------
     const table = new Tables("container");
-    table.print();
+    table.printTables();
     
 
     let Tabla = document.querySelector("#Tabla");
@@ -128,7 +130,6 @@ const approved = (numberSubject, etiqueta, subjects)=>{
     
 
     function Main(){
-        let Tablas_List = [];
         Tabla.appendChild(Etiqueta_FileData());
         DataForm(Tabla, 5 , 1);
         Tabla1.appendChild(Etiqueta_FileData());
