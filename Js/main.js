@@ -5,6 +5,7 @@ window.addEventListener('DOMContentLoaded', ()=>{
 
     const table = new Tables("container");
     table.print();
+    
 
     let Tabla = document.querySelector("#Tabla");
     let Tabla1 = document.querySelector("#Tabla1");
