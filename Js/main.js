@@ -12,7 +12,7 @@ window.addEventListener('DOMContentLoaded', ()=>{
 
     // REFACTORIZAR TODAS LAS SUBRUTINAS Y EMPAQUETARLAS EN CLASES!!!!
 
-    // Subrutina para crear la cabezera de las tablas 
+    // Subrutina para crear la cabecera de las tablas 
     const tableHeader = () => {
         let listLabels = [];
         let contentlist = ["N","SIGLA","NOMBRE DE LA ASIGNATURA", "PRE REQUISITOS","AP"];
@@ -20,7 +20,7 @@ window.addEventListener('DOMContentLoaded', ()=>{
         TR.className = "fila-data";
         let text;
 
-        // Creamos las etiquetas de la primer fila de la tabla
+        // Creamos las etiquetas de la primera fila de la tabla
         for(let i = 0 ; i < 5 ; i++){
             listLabels[i] = document.createElement("td");
 
@@ -41,14 +41,14 @@ window.addEventListener('DOMContentLoaded', ()=>{
         return TR;
     }
 
-    // Subrutinra para marcar las materias aprobadas ATENCION REFACTORIZAR EN UNA CLASE!!
+    // Subrutina para marcar las materias aprobadas ATENCION REFACTORIZAR EN UNA CLASE!!
     const approved = (numberSubject, etiqueta, subjects)=>{
         if(numberSubject < subjects){
             etiqueta.checked="checked";
         }
     }
 
-    //Subrutina para crear la filas con los datos traidos desde el JSON
+    //Subrutina para crear las filas con los datos traídos desde el JSON
     const coursesRows = num => {
         let list = [], text="";
         let index = num-1;
