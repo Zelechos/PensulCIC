@@ -101,8 +101,6 @@ window.addEventListener('DOMContentLoaded', ()=>{
         return TR;
     }
 
-    
-    
     //Subrutina para llenar las tablas dinamicamente
     const fillTable = (table, amount, number)=>{
         const $fragment = document.createDocumentFragment();
