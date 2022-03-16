@@ -76,7 +76,7 @@ export default class Approved{
         let checkboxes;
             return new Promise((resolve, reject)=>{
                 
-                let time = 300;
+                let time = 50;
 
                 setTimeout(()=>{
                     checkboxes =  document.querySelectorAll("input[type=checkbox]")
