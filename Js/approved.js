@@ -88,11 +88,10 @@ export default class Approved{
     }
 
     async showApproved(){
-        const Approveds = this.getApproved();
-        // console.warn(Approveds);
+        // Aqui realizamos la peticion de carga de nuestro checkboxes
         let checkboxes  = await this.getCheckboxes();    
-        
-        Approveds.forEach(approved=>{
+        const approveds = this.getApproved();
+        approveds.forEach(approved=>{
             // console.log(approved);
             if(approved.completed){
                 checkboxes.forEach(checkbox =>{
