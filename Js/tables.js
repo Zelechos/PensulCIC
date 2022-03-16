@@ -2,8 +2,8 @@ export default class Tables{
 
     constructor(container){
         this.d = document;
-        this.container = document.getElementById(container);
-        this.fragment = document.createDocumentFragment();
+        this.container = this.d.getElementById(container);
+        this.fragment = this.d.createDocumentFragment();
         this.contentPensul;
     }
 

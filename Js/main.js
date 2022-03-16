@@ -1,6 +1,7 @@
 'use strict'
 // ------------------- Imports -------------------
 import Tables from './tables.js';
+import Approved from './approved.js';
 
 window.addEventListener('DOMContentLoaded', ()=>{
 
@@ -10,7 +11,9 @@ window.addEventListener('DOMContentLoaded', ()=>{
     //  Traemos las tablas creadas!!
     const tablesList = table.getTables();
 
-    // REFACTORIZAR TODAS LAS SUBRUTINAS Y EMPAQUETARLAS EN CLASES!!!!
+    // Cargamos los materias aprobadas!!
+    const checkboxes  = new Approved();
+    checkboxes.marked();
 
     // Subrutina para crear la cabezera de las tablas 
     const tableHeader = () => {
@@ -41,16 +44,10 @@ window.addEventListener('DOMContentLoaded', ()=>{
         return TR;
     }
 
-    // Subrutinra para marcar las materias aprobadas ATENCION REFACTORIZAR EN UNA CLASE!!
-    const approved = (numberSubject, etiqueta, subjects)=>{
-        if(numberSubject < subjects){
-            etiqueta.checked="checked";
-        }
-    }
-
     //Subrutina para crear la filas con los datos traidos desde el JSON
     const coursesRows = num => {
-        let list = [], text="";
+        let list = []; 
+        let text = "";
         let index = num-1;
 
         // AQUI MISMO PUEDO CREAR LOS ID DE LAS ETIQUETAS TR
@@ -59,10 +56,9 @@ window.addEventListener('DOMContentLoaded', ()=>{
         TR.id = num;
 
         let input = document.createElement("input");
-        input.type = "checkbox";
         input.className = "checkboxes";
-        // se pone como parametro 41 porque ya aprobe todas las de septimo semestre
-        approved(index, input, 41);
+        input.type = "checkbox";
+        input.id = "c"+num;
 
         //Controla la Creacion de Td
         for(let i=0; i < 5; i++){
@@ -119,9 +115,10 @@ window.addEventListener('DOMContentLoaded', ()=>{
             if(index === 8)fillTable(table, 3 , 49);
             if(index === 9)fillTable(table, 1 , 52);
         });
+
     }
     
     Main();
-    
-    
+
 });
+
