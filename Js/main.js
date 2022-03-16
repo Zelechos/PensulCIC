@@ -15,6 +15,8 @@ window.addEventListener('DOMContentLoaded', ()=>{
     const checkboxes  = new Approved();
     checkboxes.marked();
 
+    
+
     // Subrutina para crear la cabezera de las tablas 
     const tableHeader = () => {
         let listLabels = [];
@@ -65,20 +67,32 @@ window.addEventListener('DOMContentLoaded', ()=>{
             list[i]= document.createElement("td");
         }
 
-        $.get('./Js/data.json', response =>{
-            //Dado que el valor de el json es un array empieza del indice 0 por eso index = 0
-                if(num === response[index].N){
+        // Consumiendo los datos de data.json
+        async function getData(){
+            try{
+                let response = await fetch("./Js/data.json");
+                let json = await response.json();
+
+                if(!response.ok)throw {status: response.status}
+
+                if(num === json[index].N){
                     //el valor de position equivale a las 5 columnas
                     list.forEach((column, position)=>{
-                        if(position == 0)column.textContent = response[index].N;
-                        if(position == 1)column.textContent = response[index].SIGLA;
-                        if(position == 2)column.textContent = response[index].ASIGNATURA;
-                        if(position == 3)column.textContent = response[index].REQUISITOS;
+                        if(position == 0)column.textContent = json[index].N;
+                        if(position == 1)column.textContent = json[index].SIGLA;
+                        if(position == 2)column.textContent = json[index].ASIGNATURA;
+                        if(position == 3)column.textContent = json[index].REQUISITOS;
                         if(position == 4)column.appendChild(input);
                     })
                 }
-            
-        });
+            }catch(error){
+                document.querySelector('.container').innerHTML = `<h1>Error : ${error}</h1>`;
+            }finally{
+                console.log();
+            }
+        }
+        
+        getData();
 
         list.forEach(element=> {
             TR.appendChild(element);
@@ -86,6 +100,8 @@ window.addEventListener('DOMContentLoaded', ()=>{
         
         return TR;
     }
+
+    
     
     //Subrutina para llenar las tablas dinamicamente
     const fillTable = (table, amount, number)=>{
