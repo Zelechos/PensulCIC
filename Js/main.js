@@ -2,11 +2,8 @@
 // ------------------- Imports -------------------
 import Tables from './tables.js';
 import Approved from './approved.js';
-import switchApproved from './checkbox.js';
 
 window.addEventListener('DOMContentLoaded', ()=>{
-
-
 
 //  ------------------- Instancia para pintar las Tablas -------------------
     const table = new Tables("container");
@@ -64,7 +61,7 @@ window.addEventListener('DOMContentLoaded', ()=>{
         input.id = "c"+num;
 
         let label = document.createElement('label');
-        label.setAttribute('for', "checkbox");
+        label.setAttribute('for', "c"+num);
         label.className = "label";
 
         let ball = document.createElement('div');
@@ -96,8 +93,6 @@ window.addEventListener('DOMContentLoaded', ()=>{
                         if(position == 4){
                             column.appendChild(input);
                             column.appendChild(label);
-                            //  ------------------- Funcion switch -------------------
-                            switchApproved();
                         }
                     })
                 }
@@ -137,7 +132,6 @@ window.addEventListener('DOMContentLoaded', ()=>{
         tablesList.forEach((table, index) =>{
             // Primero introducimos la cabezera de la tabla
             table.appendChild(tableHeader());
-
             // Segundo introducimos la filas con las asignaturas
             if(index === 0)fillTable(table, 5 , 1);
             if(index > 0 && index < 7)fillTable(table, 6 , (6 * index));
@@ -145,12 +139,8 @@ window.addEventListener('DOMContentLoaded', ()=>{
             if(index === 8)fillTable(table, 3 , 49);
             if(index === 9)fillTable(table, 1 , 52);
         });
-
     }
     
     Main();
-
-    
-
 });
 
