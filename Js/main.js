@@ -2,8 +2,11 @@
 // ------------------- Imports -------------------
 import Tables from './tables.js';
 import Approved from './approved.js';
+import switchApproved from './checkbox.js';
 
 window.addEventListener('DOMContentLoaded', ()=>{
+
+
 
 //  ------------------- Instancia para pintar las Tablas -------------------
     const table = new Tables("container");
@@ -14,9 +17,7 @@ window.addEventListener('DOMContentLoaded', ()=>{
     // Cargamos los materias aprobadas!!
     const checkboxes  = new Approved();
     checkboxes.marked();
-
     
-
     // Subrutina para crear la cabezera de las tablas 
     const tableHeader = () => {
         let listLabels = [];
@@ -58,9 +59,19 @@ window.addEventListener('DOMContentLoaded', ()=>{
         TR.id = num;
 
         let input = document.createElement("input");
-        input.className = "checkboxes";
         input.type = "checkbox";
+        input.className = "checkboxes";
         input.id = "c"+num;
+
+        let label = document.createElement('label');
+        label.setAttribute('for', "checkbox");
+        label.className = "label";
+
+        let ball = document.createElement('div');
+        ball.className = "ball";
+
+        label.appendChild(ball);
+
 
         //Controla la Creacion de Td
         for(let i=0; i < 5; i++){
@@ -82,7 +93,12 @@ window.addEventListener('DOMContentLoaded', ()=>{
                         if(position == 1)column.textContent = json[index].SIGLA;
                         if(position == 2)column.textContent = json[index].ASIGNATURA;
                         if(position == 3)column.textContent = json[index].REQUISITOS;
-                        if(position == 4)column.appendChild(input);
+                        if(position == 4){
+                            column.appendChild(input);
+                            column.appendChild(label);
+                            //  ------------------- Funcion switch -------------------
+                            switchApproved();
+                        }
                     })
                 }
             }catch(error){
@@ -133,6 +149,8 @@ window.addEventListener('DOMContentLoaded', ()=>{
     }
     
     Main();
+
+    
 
 });
 

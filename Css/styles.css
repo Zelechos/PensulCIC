@@ -67,6 +67,67 @@
     text-align: center;
 }
 
+/* Checkboxes */
+.checkboxes {
+    z-index: 1;
+    opacity: 1;
+    position: absolute; 
+}
+
+
+.label {
+    width: 15px;
+    height: 5px;
+    background-color:  #2c546c;
+    display: flex;
+    border-radius:50px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    position: absolute;
+    transform: scale(1.5);
+}
+
+.ball {
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    border-radius: 50%;
+    transition: transform 0.5s linear;
+}
+
+/*  target the elemenent after the label*/
+.checkboxes:checked + .label .ball{
+    transform: translateX(28px);
+}
+
+/* Dark Mode Styles */
+
+.dark{
+    background-color: #000000;
+    color: #FAFAFA;
+}
+
+.darkball{
+    width: 27px;
+    height: 26px;
+    background-color: #2a2a2a;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    border-radius: 50%;
+    transition: transform 0.5s linear;
+}
+
+/*  target the elemenent after the label*/
+.checkboxes:checked + .label .darkball{
+    transform: translateX(28px);
+}
+
+
 /* comentario */
 /* Teléfonos */
 @media only screen and (max-width: 575px){
